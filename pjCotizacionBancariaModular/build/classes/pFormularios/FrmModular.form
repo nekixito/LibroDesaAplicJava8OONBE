@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Modelo de cotizaci&#xf3;n bancaria"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                      <Component id="lblTitModelo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblTitTipoM" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTitTipoB" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTitPlazoMe" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTitValorB" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cboMoneda" max="32767" attributes="0"/>
+                                  <Component id="cboBien" alignment="0" pref="100" max="32767" attributes="0"/>
+                                  <Component id="txtMeses" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtValor" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblTitTasaI" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTitCuoIni" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblTasaInteres" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblInicial" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
+                                  <Component id="lblCuotaMensual" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btnLimpiar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="btnResultados" min="-2" pref="529" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="lblTitCuotaInicial" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                          <Component id="lblCuotaInicial" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="lblTitRiesNeto" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="lblRiesgo" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
+                      <Component id="lblTitCuotaMen" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="83" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="lblTitModelo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitTipoM" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cboMoneda" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitTipoB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cboBien" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitPlazoMe" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMeses" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTitTasaI" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTasaInteres" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitValorB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtValor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTitCuoIni" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblInicial" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="btnResultados" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTitCuotaInicial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCuotaInicial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTitRiesNeto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRiesgo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblTitCuotaMen" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCuotaMensual" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLimpiar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitModelo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MODELO DE COTIZACION BANCARIA - MODULAR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitTipoM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE MONEDA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitTipoB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE BIEN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitPlazoMe">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PLAZO EN MESES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitValorB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VALOR DEL BIEN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cboMoneda">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cboMonedaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cboBien">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMeses">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValor">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitTasaI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TASA DE INTERES %"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitCuoIni">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CUOTA INICIAL %"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTasaInteres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="12.00"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInicial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="20.00"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnResultados">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VER RESULTADOS DE LA SIMULACI&#xd3;N"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResultadosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitCuotaInicial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CUOTA INICIAL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCuotaInicial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="$0.00"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitRiesNeto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RIESGO NETO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRiesgo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="$0.00"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTitCuotaMen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CUOTA MENSUAL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCuotaMensual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="$0.00"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimpiar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
