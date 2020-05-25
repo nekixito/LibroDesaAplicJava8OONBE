@@ -1,0 +1,4 @@
+7006,Fernanda Torres,1,500.0
+8906,Alberto Cano,4,450.0
+9575,Pedro Ramos,6,700.0
+4569,Patricia Muñoz,1,900.0
